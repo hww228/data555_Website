@@ -1,5 +1,38 @@
 ---
-title: "About This Website"
+title: "About Me"
 ---
 
-More about this website.
+## Education
+
+**M.S. Biostatistics and Bioinformatics**  
+Emory University, Atlanta, GA — Expected 2026
+
+**B.S. [Your Degree]**  
+University of Liverpool — 2024
+
+---
+
+## Research Experience
+
+**Graduate Research Assistant**  
+Emory CIDMATH, Emory University — 2024 to Present
+Developing Bayesian hierarchical models in Stan to characterize viral shedding dynamics by integrating heterogeneous longitudinal datasets extracted from published literature using an LLM-powered AI pipeline.
+
+**Graduate Research Assistant**  
+Goizueta Brain Health Institute, Emory University — 2025 to Present  
+Analyzing resting-state EEG biomarkers to differentiate MCI from Alzheimer's Disease using spectral power, wavelet coherence, and complexity features.
+---
+
+## Skills
+
+| Category       | Tools                                      |
+|----------------|--------------------------------------------|
+| Programming    | Python, R, SQL                             |
+| Visualization  | ggplot2, plotly, Shiny, flexdashboard      |
+| Statistics     | Regression, survival analysis, Wilcoxon    |
+| Other          | GitHub, R Markdown, LaTeX                  |
+
+---
+
+## Contact
+- GitHub: [github.com/hww228](https://github.com/hww228)

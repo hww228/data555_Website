@@ -1,9 +1,30 @@
 ---
-title: "My Website"
+title: ""
 ---
 
-Hello, Website!
+::: columns
+::: {.column width="40%" style="text-align: center;"}
 
-For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
 
-Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+## Youwei Hu
+
+:::
+
+::: {.column width="60%" style="text-align: left;"}
+
+### Graduate Researcher | Biostatistics & Data Science
+
+I am a graduate student in the Department of Biostatistics and Bioinformatics at Emory University. My research focuses on applying statistical and machine learning methods to EEG data to better understand early markers of Alzheimer's Disease and Mild Cognitive Impairment.
+
+**Research Interests:**
+
+- EEG signal processing & biomarker analysis
+- Clinical data visualization
+- Machine learning in healthcare
+- Neurological disease classification
+
+[View My Projects](projects.html) | [Download CV](files/CV.pdf) | 
+[GitHub](https://github.com/hww228)
+
+:::
+:::
