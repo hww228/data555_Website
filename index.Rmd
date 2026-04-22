@@ -2,29 +2,33 @@
 title: ""
 ---
 
-::: columns
-::: {.column width="40%" style="text-align: center;"}
-
-
 ## Youwei Hu
 
-:::
-
-::: {.column width="60%" style="text-align: left;"}
-
 ### Graduate Researcher | Biostatistics & Data Science
+<div class="row">
+<div class="col-sm-4">
 
-I am a graduate student in the Department of Biostatistics and Bioinformatics at Emory University. My research focuses on applying statistical and machine learning methods to EEG data to better understand early markers of Alzheimer's Disease and Mild Cognitive Impairment.
+![](images/selfy.png){width=100%}
+
+</div>
+
+<div class="col-sm-8">
+I'm a graduate student in Biostatistics at Emory University with a background in financial mathematics. My work focuses on applying statistical modeling, machine learning, and data visualization to solve complex problems in healthcare and public health. 
+
+I have experience in EEG-based biomarker analysis for Alzheimer's disease and Bayesian modeling of infectious disease dynamics, with a strong interest in translating data into actionable insights.
+
+</div>
+</div>
+
+---
 
 **Research Interests:**
 
-- EEG signal processing & biomarker analysis
-- Clinical data visualization
-- Machine learning in healthcare
-- Neurological disease classification
+- Bayesian hierarchical modeling and statistical inference  
+- Neuroimaging and EEG-based biomarkers for neurological disorders  
+- Infectious disease modeling and viral shedding dynamics  
+- Integration of heterogeneous biomedical data (e.g., Ct values and viral load)  
+- Data visualization and interactive tools for health data analysis  
 
-[View My Projects](projects.html) | [Download CV](files/CV.pdf) | 
-[GitHub](https://github.com/hww228)
+[My Projects](projects.html) | [CV](files/CV.pdf) | [GitHub](https://github.com/hww228)
 
-:::
-:::

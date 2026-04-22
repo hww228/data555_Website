@@ -24,14 +24,16 @@ GitHub Repo
 </div>
 
 <div class="col-sm-6">
-<a href="https://github.com/hww228/shedding-hub" class="project-link">
+<a href="https://github.com/hww228/Shedding-Kinetics-Modeling" class="project-link">
 <div class="panel panel-default">
 <div class="panel-heading">
-<h3 class="panel-title">Viral Shedding Data Integration & Modeling</h3>
+<h3 class="panel-title">Bayesian Modeling of Viral Shedding Dynamics</h3>
 </div>
 <div class="panel-body">
-<p>This project focuses on building a standardized dataset of viral shedding dynamics from published studies and integrating heterogeneous data sources such as viral load and Ct values. Using data extraction, cleaning, and Bayesian hierarchical modeling, the work aims to better understand infection trajectories and improve interpretation of incomplete or censored measurements. The results demonstrate how combining multiple data types can reveal more accurate and informative patterns of viral shedding over time.</p>
-<a href="https://github.com/hww228/shedding-hub">
+<p>Developed a Bayesian hierarchical model in Stan to characterize viral shedding dynamics by integrating heterogeneous laboratory measurements, including viral load concentration and Ct values. The model accounts for censoring mechanisms and estimates a shared latent viral trajectory, improving inference in settings with incomplete or sparse data.</p>
+<a href="baysesian.html" class="btn btn-sm btn-primary"> 
+View Project</a>
+<a href="https://github.com/hww228/Shedding-Kinetics-Modeling" class="btn btn-sm btn-default"> 
 GitHub Repo
 </a>
 </div>
@@ -39,4 +41,20 @@ GitHub Repo
 </a>
 </div>
 
+<div class="col-sm-6">
+<a href="https://github.com/hww228/shedding-hub" class="project-link">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title">Viral Shedding Data Integration Pipeline</h3>
 </div>
+<div class="panel-body">
+<p>Built a standardized dataset of longitudinal viral shedding data by extracting information from published studies, including figures, tables, and supplementary materials. Developed a structured data pipeline using LLM-assisted extraction and YAML-based schemas to harmonize heterogeneous data sources such as Ct values and viral load measurements, enabling downstream modeling and analysis.</p>
+<a href="https://github.com/hww228/shedding-hub" class="btn btn-sm btn-primary">
+GitHub Repo
+</a>
+</div>
+</div>
+</a>
+</div>
+
+
