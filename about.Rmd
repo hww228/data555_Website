@@ -2,37 +2,140 @@
 title: "About Me"
 ---
 
-## Education
+<!-- Education -->
+<div class="section-block">
+<h2 class="section-title">Education</h2>
 
-**M.S. Biostatistics and Bioinformatics**  
-Emory University, Atlanta, GA — Expected 2026
+<div class="timeline">
 
-**B.S. [Your Degree]**  
-University of Liverpool — 2024
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <div class="timeline-header">
+      <span class="timeline-degree">M.S. Biostatistics and Bioinformatics</span>
+      <span class="timeline-date">2024 — 2026</span>
+    </div>
+    <div class="timeline-place">Emory University, Atlanta, GA</div>
+  </div>
+</div>
+
+<div class="timeline-item">
+  <div class="timeline-dot"></div>
+  <div class="timeline-content">
+    <div class="timeline-header">
+      <span class="timeline-degree">B.S. Mathematics and Statistics</span>
+      <span class="timeline-date">2020 — 2024</span>
+    </div>
+    <div class="timeline-place">University of Liverpool, UK</div>
+  </div>
+</div>
+
+</div>
+</div>
 
 ---
 
-## Research Experience
+<!-- Research Experience -->
+<div class="section-block">
+<h2 class="section-title">Research Experience</h2>
 
-**Graduate Research Assistant**  
-Emory CIDMATH, Emory University — 2024 to Present
-Developing Bayesian hierarchical models in Stan to characterize viral shedding dynamics by integrating heterogeneous longitudinal datasets extracted from published literature using an LLM-powered AI pipeline.
+<div class="experience-card">
+  <div class="experience-header">
+    <div>
+      <div class="experience-title">Graduate Research Assistant</div>
+      <div class="experience-place">Emory CIDMATH, Emory University</div>
+    </div>
+    <span class="experience-date">2024 — Present</span>
+  </div>
+  <p class="experience-desc">
+    Developing Bayesian hierarchical models in Stan to characterize viral shedding dynamics by integrating heterogeneous longitudinal datasets extracted from 
+    published literature using an LLM-powered AI pipeline.
+  </p>
+  <div class="experience-tags">
+    <span class="tag-skill">Stan</span>
+    <span class="tag-skill">Bayesian Modeling</span>
+    <span class="tag-skill">R</span>
+    <span class="tag-skill">LLM Pipeline</span>
+  </div>
+</div>
 
-**Graduate Research Assistant**  
-Goizueta Brain Health Institute, Emory University — 2025 to Present  
-Analyzing resting-state EEG biomarkers to differentiate MCI from Alzheimer's Disease using spectral power, wavelet coherence, and complexity features.
+<div class="experience-card">
+  <div class="experience-header">
+    <div>
+      <div class="experience-title">Graduate Research Assistant</div>
+      <div class="experience-place">Goizueta Brain Health Institute, Emory University</div>
+    </div>
+    <span class="experience-date">2025 — Present</span>
+  </div>
+  <p class="experience-desc">
+    Analyzing resting-state EEG biomarkers to differentiate MCI from Alzheimer's 
+    Disease using spectral power, wavelet coherence, and complexity features.
+  </p>
+  <div class="experience-tags">
+    <span class="tag-skill">EEG Analysis</span>
+    <span class="tag-skill">R Shiny</span>
+    <span class="tag-skill">plotly</span>
+    <span class="tag-skill">Signal Processing</span>
+  </div>
+</div>
+
+</div>
+
 ---
 
-## Skills
+<!-- Skills -->
+<div class="section-block">
+<h2 class="section-title">Skills</h2>
 
-| Category       | Tools                                      |
-|----------------|--------------------------------------------|
-| Programming    | Python, R, SQL                             |
-| Visualization  | ggplot2, plotly, Shiny, flexdashboard      |
-| Statistics     | Regression, survival analysis, Wilcoxon    |
-| Other          | GitHub, R Markdown, LaTeX                  |
+<div class="skills-grid">
+  <div class="skill-group">
+    <div class="skill-group-title">Programming</div>
+    <div class="skill-bars">
+      <div class="skill-bar-item">
+        <span class="skill-name">R</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <span class="skill-name">Python</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <span class="skill-name">SQL</span>
+        <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+      </div>
+    </div>
+  </div>
+  <div class="skill-group">
+    <div class="skill-group-title">Tools & Frameworks</div>
+    <div class="skill-badges">
+      <span class="tag-skill">ggplot2</span>
+      <span class="tag-skill">plotly</span>
+      <span class="tag-skill">Shiny</span>
+      <span class="tag-skill">Stan</span>
+      <span class="tag-skill">R Markdown</span>
+      <span class="tag-skill">LaTeX</span>
+      <span class="tag-skill">GitHub</span>
+      <span class="tag-skill">flexdashboard</span>
+    </div>
+  </div>
+</div>
+
+</div>
 
 ---
 
-## Contact
-- GitHub: [github.com/hww228](https://github.com/hww228)
+<!-- Contact -->
+<div class="section-block">
+<h2 class="section-title">Contact</h2>
+<div class="contact-row">
+  <a href="https://github.com/hww228" class="contact-chip" target="_blank">
+    GitHub
+  </a>
+  <a href="https://www.linkedin.com/in/youwei-hu-62744b30b/" class="contact-chip" target="_blank">
+    LinkedIn
+  </a>
+  <a href="mailto:youwei.hu@emory.edu" class="contact-chip">
+    youwei.hu@emory.edu
+  </a>
+</div>
+</div>

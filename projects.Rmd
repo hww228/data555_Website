@@ -31,14 +31,14 @@ GitHub Repo
 </div>
 <div class="panel-body">
 <p>Developed a Bayesian hierarchical model in Stan to characterize viral shedding dynamics by integrating heterogeneous laboratory measurements, including viral load concentration and Ct values. The model accounts for censoring mechanisms and estimates a shared latent viral trajectory, improving inference in settings with incomplete or sparse data.</p>
-<a href="baysesian.html" class="btn btn-sm btn-primary"> 
-View Project</a>
-<a href="https://github.com/hww228/Shedding-Kinetics-Modeling" class="btn btn-sm btn-default"> 
-GitHub Repo
+<a href="bayesianmodel.html" class="btn btn-sm btn-primary">
+  View Project
+</a>
+<a href="https://github.com/hww228/Shedding-Kinetics-Modeling" target="_blank" class="btn btn-sm btn-default"> 
+  GitHub Repo
 </a>
 </div>
 </div>
-</a>
 </div>
 
 <div class="col-sm-6">
