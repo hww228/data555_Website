@@ -2,7 +2,7 @@
 title: ""
 ---
 
-<!-- Hero Section -->
+```{=html}
 <div class="hero-banner">
   <div class="hero-content">
     <div class="hero-photo">
@@ -12,53 +12,49 @@ title: ""
       <h1 class="hero-name">Youwei Hu</h1>
       <p class="hero-title">Graduate Researcher · Biostatistics & Data Science</p>
       <p class="hero-bio">
-        I'm a graduate student in Biostatistics at Emory University with a background in financial mathematics. My work focuses on applying statistical modeling, 
-        machine learning, and data visualization to solve complex problems in healthcare and public health. I have experience in EEG-based biomarker analysis for 
-        Alzheimer's disease and Bayesian modeling of infectious disease dynamics.
+        M.S. Biostatistics candidate at Emory University. I build statistical 
+        models and interactive visualizations for problems in neurological 
+        disease and infectious disease epidemiology.
       </p>
       <div class="hero-buttons">
         <a href="projects.html" class="btn-hero-primary">View Projects</a>
-        <a href="files/CV.pdf" class="btn-hero-secondary">Download CV</a>
-        <a href="https://github.com/hww228" class="btn-hero-secondary" target="_blank">GitHub</a>
+        <a href="about.html" class="btn-hero-secondary">About Me</a>
+        <a href="files/CV.pdf" class="btn-hero-secondary">CV</a>
       </div>
     </div>
   </div>
 </div>
+```
 
 ---
 
-<!-- Research Interests -->
+```{=html}
 <div class="section-block">
   <h2 class="section-title">Research Interests</h2>
   <div class="interest-tags">
     <span class="tag">Bayesian Hierarchical Modeling</span>
     <span class="tag">EEG Biomarkers</span>
-    <span class="tag">Neurological Disorders</span>
     <span class="tag">Infectious Disease Modeling</span>
-    <span class="tag">Viral Shedding Dynamics</span>
     <span class="tag">Data Visualization</span>
-    <span class="tag">Heterogeneous Data Integration</span>
-    <span class="tag">Public Health Analytics</span>
+    <span class="tag">Interactive Dashboards</span>
   </div>
 </div>
+```
 
-<!-- Quick Stats -->
-<div class="stats-row">
-  <div class="stat-card">
-    <div class="stat-number">3+</div>
-    <div class="stat-label">Research Projects</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">2</div>
-    <div class="stat-label">Research Labs</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">5+</div>
-    <div class="stat-label">Tools & Languages</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">2026</div>
-    <div class="stat-label">Expected Graduation</div>
+```{=html}
+<div class="section-block">
+  <h2 class="section-title">Featured Work</h2>
+  <div class="featured-grid">
+    <a href="projects.html" class="featured-card">
+      <div class="featured-icon">🧠</div>
+      <div class="featured-title">EEG Biomarker Dashboard</div>
+      <div class="featured-desc">Interactive Shiny app comparing EEG features between MCI and Alzheimer's patients.</div>
+    </a>
+    <a href="projects.html" class="featured-card">
+      <div class="featured-icon">🦠</div>
+      <div class="featured-title">Viral Shedding Modeling</div>
+      <div class="featured-desc">Bayesian hierarchical model in Stan integrating Ct values and viral load measurements.</div>
+    </a>
   </div>
 </div>
-
+```

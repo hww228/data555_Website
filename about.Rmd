@@ -2,140 +2,61 @@
 title: "About Me"
 ---
 
-<!-- Education -->
-<div class="section-block">
-<h2 class="section-title">Education</h2>
+<div class="about-container">
 
-<div class="timeline">
-
-<div class="timeline-item">
-  <div class="timeline-dot"></div>
-  <div class="timeline-content">
-    <div class="timeline-header">
-      <span class="timeline-degree">M.S. Biostatistics and Bioinformatics</span>
-      <span class="timeline-date">2024 — 2026</span>
-    </div>
-    <div class="timeline-place">Emory University, Atlanta, GA</div>
-  </div>
-</div>
-
-<div class="timeline-item">
-  <div class="timeline-dot"></div>
-  <div class="timeline-content">
-    <div class="timeline-header">
-      <span class="timeline-degree">B.S. Mathematics and Statistics</span>
-      <span class="timeline-date">2020 — 2024</span>
-    </div>
-    <div class="timeline-place">University of Liverpool, UK</div>
-  </div>
-</div>
-
+<!-- Intro Section -->
+<div class="about-hero">
+<img src="images/selfy.png" class="about-photo"/>
+<div class="about-text">
+<h1>Hi, I'm Youwei 👋</h1>
+<p>
+I'm a graduate student in Biostatistics at Emory University who enjoys 
+working at the intersection of data, health, and real-world impact.
+</p>
+<p>
+I like turning messy data into meaningful insights — whether that's 
+understanding brain activity through EEG signals or modeling how 
+viruses behave over time.
+</p>
 </div>
 </div>
 
----
-
-<!-- Research Experience -->
-<div class="section-block">
-<h2 class="section-title">Research Experience</h2>
-
-<div class="experience-card">
-  <div class="experience-header">
-    <div>
-      <div class="experience-title">Graduate Research Assistant</div>
-      <div class="experience-place">Emory CIDMATH, Emory University</div>
-    </div>
-    <span class="experience-date">2024 — Present</span>
-  </div>
-  <p class="experience-desc">
-    Developing Bayesian hierarchical models in Stan to characterize viral shedding dynamics by integrating heterogeneous longitudinal datasets extracted from 
-    published literature using an LLM-powered AI pipeline.
-  </p>
-  <div class="experience-tags">
-    <span class="tag-skill">Stan</span>
-    <span class="tag-skill">Bayesian Modeling</span>
-    <span class="tag-skill">R</span>
-    <span class="tag-skill">LLM Pipeline</span>
-  </div>
+<!-- My Journey -->
+<div class="about-section">
+<h2>My Journey</h2>
+<p>
+I started in financial mathematics, where I built a strong foundation in 
+analytical thinking and modeling. Over time, I became more interested in 
+applying these tools to problems that directly impact people's lives — 
+which led me to biostatistics.
+</p>
 </div>
 
-<div class="experience-card">
-  <div class="experience-header">
-    <div>
-      <div class="experience-title">Graduate Research Assistant</div>
-      <div class="experience-place">Goizueta Brain Health Institute, Emory University</div>
-    </div>
-    <span class="experience-date">2025 — Present</span>
-  </div>
-  <p class="experience-desc">
-    Analyzing resting-state EEG biomarkers to differentiate MCI from Alzheimer's 
-    Disease using spectral power, wavelet coherence, and complexity features.
-  </p>
-  <div class="experience-tags">
-    <span class="tag-skill">EEG Analysis</span>
-    <span class="tag-skill">R Shiny</span>
-    <span class="tag-skill">plotly</span>
-    <span class="tag-skill">Signal Processing</span>
-  </div>
+<!-- What I Work On -->
+<div class="about-section">
+<h2>What I Work On</h2>
+<ul class="work-list">
+<li>🧠 EEG biomarkers for Alzheimer's disease</li>
+<li>🦠 Infectious disease modeling and viral shedding dynamics</li>
+<li>📊 Bayesian modeling and statistical inference</li>
+<li>📈 Interactive data visualization (Shiny dashboards)</li>
+</ul>
 </div>
 
+<!-- Fun Section -->
+<div class="about-section">
+<h2>Beyond Data</h2>
+<p>
+Outside of research, I enjoy exploring new technologies, thinking about 
+how data can drive better decisions, and continuously learning new tools 
+in statistics and data science.
+</p>
 </div>
 
----
-
-<!-- Skills -->
-<div class="section-block">
-<h2 class="section-title">Skills</h2>
-
-<div class="skills-grid">
-  <div class="skill-group">
-    <div class="skill-group-title">Programming</div>
-    <div class="skill-bars">
-      <div class="skill-bar-item">
-        <span class="skill-name">R</span>
-        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
-      </div>
-      <div class="skill-bar-item">
-        <span class="skill-name">Python</span>
-        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
-      </div>
-      <div class="skill-bar-item">
-        <span class="skill-name">SQL</span>
-        <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
-      </div>
-    </div>
-  </div>
-  <div class="skill-group">
-    <div class="skill-group-title">Tools & Frameworks</div>
-    <div class="skill-badges">
-      <span class="tag-skill">ggplot2</span>
-      <span class="tag-skill">plotly</span>
-      <span class="tag-skill">Shiny</span>
-      <span class="tag-skill">Stan</span>
-      <span class="tag-skill">R Markdown</span>
-      <span class="tag-skill">LaTeX</span>
-      <span class="tag-skill">GitHub</span>
-      <span class="tag-skill">flexdashboard</span>
-    </div>
-  </div>
+<!-- Call to Action -->
+<div class="about-buttons">
+<a href="projects.html" class="btn-primary">View My Work</a>
+<a href="files/CV.pdf" class="btn-secondary">Download CV</a>
 </div>
 
-</div>
-
----
-
-<!-- Contact -->
-<div class="section-block">
-<h2 class="section-title">Contact</h2>
-<div class="contact-row">
-  <a href="https://github.com/hww228" class="contact-chip" target="_blank">
-    GitHub
-  </a>
-  <a href="https://www.linkedin.com/in/youwei-hu-62744b30b/" class="contact-chip" target="_blank">
-    LinkedIn
-  </a>
-  <a href="mailto:youwei.hu@emory.edu" class="contact-chip">
-    youwei.hu@emory.edu
-  </a>
-</div>
 </div>
