@@ -3,58 +3,102 @@ title: ""
 ---
 
 ```{=html}
-<div class="hero-banner">
-  <div class="hero-content">
-    <div class="hero-photo">
-      <img src="images/selfy.png" alt="Youwei Hu" class="profile-photo"/>
-    </div>
+<!-- HERO -->
+<section class="hero-section">
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+
+    <!-- Text -->
     <div class="hero-text">
-      <h1 class="hero-name">Youwei Hu</h1>
-      <p class="hero-title">Graduate Researcher · Biostatistics & Data Science</p>
-      <p class="hero-bio">
-        M.S. Biostatistics candidate at Emory University. I build statistical 
-        models and interactive visualizations for problems in neurological 
-        disease and infectious disease epidemiology.
-      </p>
-      <div class="hero-buttons">
-        <a href="projects.html" class="btn-hero-primary">View Projects</a>
-        <a href="about.html" class="btn-hero-secondary">About Me</a>
-        <a href="files/CV.pdf" class="btn-hero-secondary">CV</a>
+      <div class="fade-in">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>Open to opportunities &middot; Atlanta, GA</span>
+        </div>
+      </div>
+
+      <div class="fade-in d1">
+        <h1 class="hero-headline">
+          Statistics<br>
+          <em>meets</em><br>
+          biology.
+        </h1>
+      </div>
+
+      <div class="fade-in d2">
+        <p class="hero-bio">
+          I'm <strong>Youwei Hu</strong> &mdash; a Biostatistics M.S. candidate at
+          Emory University. I build statistical models and interactive tools for
+          problems in neurology and infectious disease.
+        </p>
+      </div>
+
+      <div class="fade-in d3">
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn-primary-moss">View My Work</a>
+          <a href="files/CV.pdf" target="_blank" class="btn-outline-moss">Download CV</a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-```
 
----
+    <!-- Photo -->
+    <div class="hero-photo-wrap fade-in d2">
+      <div class="hero-photo-frame">
+        <img src="images/selfy.png" alt="Youwei Hu">
+      </div>
+      <div class="hero-photo-card">
+        <div class="card-sub">Currently</div>
+        <div class="card-main">M.S. Biostatistics &middot; Emory</div>
+        <div class="card-loc">Atlanta, GA</div>
+      </div>
+    </div>
 
-```{=html}
-<div class="section-block">
-  <h2 class="section-title">Research Interests</h2>
-  <div class="interest-tags">
-    <span class="tag">Bayesian Hierarchical Modeling</span>
-    <span class="tag">EEG Biomarkers</span>
-    <span class="tag">Infectious Disease Modeling</span>
-    <span class="tag">Data Visualization</span>
-    <span class="tag">Interactive Dashboards</span>
   </div>
-</div>
-```
+</section>
 
-```{=html}
-<div class="section-block">
-  <h2 class="section-title">Featured Work</h2>
-  <div class="featured-grid">
-    <a href="projects.html" class="featured-card">
-      <div class="featured-icon">🧠</div>
-      <div class="featured-title">EEG Biomarker Dashboard</div>
-      <div class="featured-desc">Interactive Shiny app comparing EEG features between MCI and Alzheimer's patients.</div>
-    </a>
-    <a href="projects.html" class="featured-card">
-      <div class="featured-icon">🦠</div>
-      <div class="featured-title">Viral Shedding Modeling</div>
-      <div class="featured-desc">Bayesian hierarchical model in Stan integrating Ct values and viral load measurements.</div>
-    </a>
+<!-- WHAT I WORK ON -->
+<section class="focus-section">
+  <div class="section-header fade-in">
+    <span class="section-header-label">What I Work On</span>
+    <div class="section-header-line"></div>
   </div>
-</div>
+
+  <div class="focus-row fade-in">
+    <span class="focus-num">01</span>
+    <div>
+      <div class="focus-title">EEG &amp; Alzheimer&rsquo;s</div>
+      <p class="focus-desc">Developing biomarkers from resting-state EEG data to distinguish MCI from
+      Alzheimer&rsquo;s Disease, in collaboration with the Goizueta Brain Health Institute.</p>
+    </div>
+    <span class="focus-tag">Neurological Research</span>
+  </div>
+  
+  <div class="focus-row fade-in">
+    <span class="focus-num">02</span>
+    <div>
+      <div class="focus-title">Interactive Data Tools</div>
+      <p class="focus-desc">Building Shiny dashboards and visualization pipelines that turn complex statistical outputs into tools researchers can actually use.</p>
+    </div>
+    <span class="focus-tag">Data Engineering</span>
+  </div>
+
+  <div class="focus-row fade-in">
+    <span class="focus-num">03</span>
+    <div>
+      <div class="focus-title">Viral Shedding Dynamics</div>
+      <p class="focus-desc">Bayesian hierarchical models in Stan that integrate heterogeneous lab measurements &mdash; Ct values and viral load &mdash; to characterize infectious disease trajectories.</p>
+    </div>
+    <span class="focus-tag">Infectious Disease</span>
+  </div>
+
+  <div class="focus-row fade-in">
+    <span class="focus-num">04</span>
+    <div>
+      <div class="focus-title">Shedding Hub Data Pipeline</div>
+      <p class="focus-desc">Literature review to identify longitudinal viral shedding datasets, followed by manual extraction and an LLM-powered pipeline that parses data into standardized YAML files &mdash; building a benchmark dataset for AI model training and validation.</p>
+    </div>
+    <span class="focus-tag">Data Infrastructure</span>
+  </div>
+</section>
+
 ```

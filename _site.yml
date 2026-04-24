@@ -1,24 +1,19 @@
 name: "Youwei Hu"
 output_dir: "docs"
 navbar:
-  left:
+  right:
     - text: "Home"
       href: index.html
-      icon: fa-home
     - text: "About"
       href: about.html
-      icon: fa-book-open
     - text: "Projects"
       href: projects.html
-      icon: fa-computer
     - text: "CV"
       href: files/CV.pdf
-      icon: fa-paperclip
-  right:
-    - href: https://github.com/hww228
-      icon: fa-github
-    - href: https://www.linkedin.com/in/youwei-hu-62744b30b/
-      icon: fa-linkedin
+    - text: "GitHub"
+      href: https://github.com/hww228
+    - text: "LinkedIn"
+      href: https://www.linkedin.com/in/youwei-hu-62744b30b/
 output:
   html_document:
     theme: yeti
